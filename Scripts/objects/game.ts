@@ -7,6 +7,6 @@ module objects {
         public static currentSceneObject: objects.Scene;
         public static keyboardManager: managers.Keyboard;
         public static canvasHeight: number = 900;
-        public static canvasWidth: number = 640;
+        public static canvasWidth: number = 1100;
     }
 }

@@ -10,8 +10,8 @@ module objects {
         // Methods
         public Start(): void {
             // Set the initial position
-            this.y = 700;
-            this.x = 320;
+            this.y = 120;
+            this.x = 600;
 
             this.isDead = false;
             //this.scaleX = 0.25;

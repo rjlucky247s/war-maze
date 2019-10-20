@@ -5,7 +5,7 @@ var objects;
         function Game() {
         }
         Game.canvasHeight = 900;
-        Game.canvasWidth = 640;
+        Game.canvasWidth = 1100;
         return Game;
     }());
     objects.Game = Game;

@@ -24,8 +24,8 @@ var objects;
         // Methods
         Player.prototype.Start = function () {
             // Set the initial position
-            this.y = 700;
-            this.x = 320;
+            this.y = 120;
+            this.x = 600;
             this.isDead = false;
             //this.scaleX = 0.25;
             //this.scaleY = 0.25;

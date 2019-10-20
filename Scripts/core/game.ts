@@ -19,8 +19,8 @@
         { id: "backButton", src: "./Assets/BackButton.png" },
         { id: "nextButton", src: "./Assets/NextButton.png" },
         { id: "background", src: "./Assets/background.png" },
-        { id: "player", src: "./Assets/Spaceship.png" },
-        { id: "enemy", src: "./Assets/ship.png" },
+        { id: "player", src: "./Assets/Tank.png" },
+        { id: "mazetile", src: "./Assets/MazeTile.png" },
         { id: "explosion", src: "./Assets/Sound/explosion.ogg" },
         { id: "play_music", src: "./Assets/Sound/level_music.wav" },
         { id: "start_music", src: "./Assets/Sound/start_music.wav" }
@@ -69,11 +69,6 @@
 
         stage.update();
     }
-
-    function clickableButtonMouseClick(): void {
-        console.log("AHHHHHHH");
-    }
-
     function Main() {
         console.log("Game Start...");
 

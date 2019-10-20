@@ -24,12 +24,12 @@ var objects;
         // Functions 
         // Initializing our variables with default values
         Background.prototype.Start = function () {
-            this.speedY = 0.5;
+            // this.speedY = 0.5;
             this.Reset();
         };
         // Updated 60 times per second (60FPS)
         Background.prototype.Update = function () {
-            this.Move();
+            //   this.Move();
             this.CheckBound();
         };
         // Resets the position of the object
